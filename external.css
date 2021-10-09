@@ -3,8 +3,11 @@ h1 {
     color:salmon;
     text-decoration: underline;
     text-align: center;
-    position: absolute;
+   
 
+}
+body {
+    background-color: rgb(29, 57, 214);/*set background color to blue*/
 }
 h2 {
     padding: 50px;
@@ -21,6 +24,7 @@ h3 {
     border-color:#FFF;
     background-color:hsl(h,s,l);
     display:none;
+    position: absolute;
 }
 
 
@@ -61,7 +65,7 @@ h2.right_pos {
     font-family:'Times New Roman', Times, serif;
 }
 
-@media all and (min-width: 40px) {
+@media only screen and (max-width: 900px) {
     body {
       background-color: red;
     }
@@ -69,4 +73,27 @@ h2.right_pos {
 
 p, ol{
     color: pink;
+}
+
+#wang{
+    background-color: rosybrown;
+}
+a[target] {
+    background-color: lightgray;
+  }
+
+div h3 {
+    background-color: green;
+}
+
+div > h6 {
+    font-family:'Courier New', Courier, monospace;
+  }
+
+div + h5 {
+    background-color: hotpink;
+}
+
+div ~ h4 {
+    background-color:brown;
 }
