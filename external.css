@@ -20,11 +20,9 @@ h3 {
     border-radius: 20ex;
     border-color:#FFF;
     background-color:hsl(h,s,l);
-}
-
-h3{
     display:none;
 }
+
 
 ul{
     display:inline-block;
@@ -68,3 +66,7 @@ h2.right_pos {
       background-color: red;
     }
   }
+
+p, ol{
+    color: pink;
+}
