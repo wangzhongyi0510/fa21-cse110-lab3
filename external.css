@@ -1,0 +1,24 @@
+h1 {
+    background-color: rgb(214, 99, 22);
+}
+h2 {
+    padding: 50px;
+    padding-right: 25px;
+    margin-top : 30px;
+    margin : 20px;
+    border-style:dotted;
+    border-color: red;
+}
+h3 {
+    margin:auto;
+    border-width:4px;
+    border-radius: 20px;
+}
+
+h3{
+    display:none;
+}
+
+ul{
+    display:inline-block;
+}
