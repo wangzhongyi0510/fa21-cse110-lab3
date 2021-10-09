@@ -97,3 +97,25 @@ div + h5 {
 div ~ h4 {
     background-color:brown;
 }
+
+.flex_contain{
+    display: flex;
+    background-color: purple;
+}
+.flex_contain > div {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 200;
+    margin: 10px;
+}
+
+.grid_contain{
+    display: grid;
+    background-color: black;
+}
+.grid_inside{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 200;
+    margin: 20px;
+}
