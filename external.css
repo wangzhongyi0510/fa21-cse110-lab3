@@ -3,6 +3,7 @@ h1 {
     color:salmon;
     text-decoration: underline;
     text-align: center;
+    position: absolute;
 
 }
 h2 {
@@ -46,3 +47,24 @@ a:hover{
 a:active{
     color: pink;
 }
+
+
+h2.left_pos {
+    position: relative;
+    left: -13px;
+}
+  
+h2.right_pos {
+    position: relative;
+    left: 24px;
+}
+
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+
+@media all and (min-width: 40px) {
+    body {
+      background-color: red;
+    }
+  }
